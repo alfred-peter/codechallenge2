@@ -1,8 +1,8 @@
-function generatearray(start, end) {
+function generatearray(num1,num2) {
 
 let result = [];
 
-for (let i = start; i <= end; i++) {
+for (let i = num1; i <= num2; i++) {
     result.push(i);
 }
 return result;
